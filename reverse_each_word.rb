@@ -1,9 +1,9 @@
 #def reverse_each_word(sentence)
-#  return string.reverse
-end
+##  return string.reverse
+#end
 
-def reverse_each_word(array)
-  nuarray = []
+def reverse_each_word(sentence)
+  newarray = []
   array.map! do |element|
     element.reverse
   end 
