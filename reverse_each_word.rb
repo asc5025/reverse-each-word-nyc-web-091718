@@ -8,5 +8,6 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word_collect(sentence)
-  reserve_collect = sentence.split(" ")
+  reserve_collect = sentence.split(" ").collect do |word|
+    
 end
